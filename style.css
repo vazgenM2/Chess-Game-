@@ -1,0 +1,175 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: rgb(184, 131, 131);
+}
+
+.by-me {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+
+.gameName {
+    text-align: center;
+    font-size: 150px;
+    color: white;
+    background-color: rgb(168, 119, 119);
+    margin-top: 150px;
+}
+
+.play-btn {
+    margin: auto auto;
+    width: 530px;
+    height: 220px;
+    font-size: 96px;
+    background-color: rgb(163, 105, 105);
+    outline: none;
+    border: none;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.2s linear;
+    margin-top: 200px;
+    margin-left: 700px;
+}
+
+.play-btn:hover {
+    background-color: rgb(169, 106, 106);
+    transform: scale(1.2);
+}
+
+.score {
+    display: none;
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    color: white;
+    font-size: 23px;
+    padding-top: 18px;
+    text-align: center;
+    background-color: rgb(163, 105, 105);
+
+}
+
+.p1 {
+    left: 0px;
+    top: 200px;
+}
+
+.p2 {
+    right: 0px;
+    top: 200px;
+}
+
+.t {
+    cursor: pointer;
+    top: 300px;
+}
+
+.n {
+    cursor: pointer;
+    top: 400px;
+}
+
+.p {
+    cursor: pointer;
+    top: 500px;
+}
+
+.d {
+    cursor: pointer;
+    top: 600px;
+}
+
+.scoreVal {
+    font-size: 30px;
+    text-decoration: none;
+}
+
+
+/* //---------------------------------------------------------------------- */
+.say-who-next {
+    background-color: rgb(163, 105, 105);
+    padding: 10px;
+    font-size: 26px;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    display: none;
+    min-height: 30px;
+}
+
+.chess-table {
+    width: 710px;
+    height: 710px;
+    border: 5px solid rgb(71, 5, 5);
+    margin: 20px auto;
+    border-radius: 20px;
+    background-color: rgb(68, 11, 11);
+
+    padding: 5px;
+    display: none;
+}
+
+.ate {
+    max-width: 800px;
+    min-height: 105px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(163, 105, 105);
+    margin: 0px auto 10px;
+    padding: 10px;
+    display: none;
+}
+
+.allBlocks {
+    margin: 7px 7px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.block {
+    cursor: pointer;
+    width: 85px;
+    height: 85px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.block img {
+    margin: 5px 5px;
+}
+
+.black {
+    background-color: rgb(211, 129, 129);
+    transition: all 0.3s ease;
+}
+
+.white {
+    background-color: rgb(153, 60, 60);
+    transition: all 0.3s ease;
+}
+
+.black:hover {
+    background-color: rgb(93, 31, 31);
+}
+
+.white:hover {
+    background-color: rgb(93, 31, 31);
+}
+
+.green {
+    background-color: rgb(117, 202, 84);
+    opacity: 0.6;
+}
+
+.figure.active {
+    opacity: 0.6;
+}
